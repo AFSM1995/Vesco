@@ -93,7 +93,7 @@ h3 {
     padding: 12px 26px 12px 26px;
     font-size: 16px;
     font-weight: 400;
-    text-transform: capitalize;
+    text-transform: uppercase; /* Bug set to wrong setting "captilize" */
 }
 
 .btn-white {
@@ -136,6 +136,7 @@ home-cover, #home-heading, #home-btn {
 
 .content-box {
     padding: 60px 0 60px 0; /* Spacing between sections in services section */
+    padding: 60px 0 60px 0px; /* Spacing between sections in services section */
 }
 
 .content-title h3 {
@@ -176,7 +177,7 @@ home-cover, #home-heading, #home-btn {
 
 .service-item:hover .service-item-icon i {
     color: #fff;
-    background-color: #34c6d3; 
+    background-color: #34c6d3;
 }
 
 .service-item-title h3 {
