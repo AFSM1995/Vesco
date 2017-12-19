@@ -94,7 +94,8 @@
         <div class="content-box">
             <!-- bug forgot "=" after class -->
 
-            <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+            <!-- Generic templete aka class for title -->
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
                 <h3> Services </h3>
                 <!-- section title -->
                 <div class="content-title-underline"></div>
@@ -104,7 +105,7 @@
             <div class="container">
                 <!-- bug typed containers, caused section margins to be spread out more -->
 
-                <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
 
                     <div class="col-md-4">
 
@@ -262,6 +263,73 @@
 
         </div>
 
+    </section>
+    
+<!--================================================
+                ABOUT SECTION
+=================================================-->
+    
+    <section id="about">
+    
+        <!-- right side image with parallax effect -->
+        <div id="about-bg-diagonal" class="bg-parallax"></div>
+            <!-- using peralix class to add effect -->
+            <!-- bug ".bg-parallax" broke effect-->
+        
+        <!-- left section title pharagraoh -->
+        <div class="container">
+        
+            <div class="row">
+                
+                <div class="col-md-4">
+                
+                    <div id="about-content-box">
+                    
+                        <div id="about-content-box-outer">
+                            <!-- allow horisontal and vertical alignment of lrft content section in about -->
+                        
+                            <div id="about-content-box-inner">
+                                <!-- allow horisontal and vertical alignment of lrft content section in about -->
+                            
+                                <!-- about title -->
+                                <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                                        <!-- Generic templete aka class for title copied from services section -->
+                                    <h3> About Vesco</h3>
+                                    <div class="content-title-underline"></div>
+                            
+                                </div>
+                                
+                                <!-- discription under title -->
+                                <div id="about-desc" class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <!-- animation copied from content-title, class="wow fadeInDown" so animations work -->
+                                
+                                    <p>Magna arbitror et dolor amet, fabulas do noster non eu mentitum praesentibus e est ex quid cupidatat. Dolore reprehenderit probant quorum tempor, illum hic ut illum pariatur. Qui o magna aute labore</p>
+                                
+                                </div>
+                                
+                                <!-- button under description -->
+                                <div id="button-abt" class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <!-- animation copied from content-title, class="wow fadeInDown" so animations work -->
+                                    
+                                    <a class="btn btn-lg btn-general btn-blue" herf="#work" role="button">Our Work</a>
+                                        <!-- btn-blue ancored here-->
+                                        <!-- bootstrap button classes check documintation-->
+                                        <!-- btn-general is a class we made in home section in .css (adds defult styling-->
+                                
+                                </div>
+                        
+                            </div>
+                    
+                        </div>
+                
+                    </div>
+                
+                </div>
+            
+            </div>
+            
+        </div>
+        
     </section>
 
     <!-- temporary space -->
