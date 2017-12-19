@@ -2,12 +2,10 @@
                         SERVICES
 ==================================================================*/
 
-$(document().ready(function() {
+$(function() {
     // animate on scroll
-    new WOW().init();  
-}));
-
-
+    new WOW().init();
+});
 
 
 
