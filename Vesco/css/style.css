@@ -1,49 +1,117 @@
-/*
-Font Family     : Roboto Condenced
+/*=================================================
+Font Family     : Roboto Condenced (Google Fonts)
 
 Greenish Blue   : #34c6d3       (Buttons, icons, links, lines & background)
 Steel Gray      : #41464b       (Headline)
 Blue Bayoux     : #64707b       (Paragraphs)
 White           : #fff          (Text with black background)
 Black           : #000
-*/
+=================================================*/
 
-/*
-=================================================
-                General CSS
-=================================================
-*/
+/*=================================================
+                    General 
+=================================================*/
 
 html, body {
-    /* Perant elements */
+    /* html & body are perant elements */
     height: 100%;
-    /* Have to set html and body and home equall to 100% so that home-cover can be set to 100% so the home image can be seen corectly */
+    /* set below 100%: home work area decreases.
+    set at 100%: home work area uses full area.
+    set above 100%: scroll down till you reach website massages.*/
 }
 
 body {
     font-family: "Roboto Condensed", sans-serif;
-    /* Sets font for the website "," if first font is unavailable*/
+    /* sets font for the website "," if first font is unavailable*/
 }
 
 p {
+    /* the <p> tag defines a paragraph. 
+    default paragraph settings*/
     color: #64707b;
     font-size: 16px;
     font-weight: 300;
 }
 
 h3 {
+    /* the <h1> to <h6> tags are used to define HTML headings. 
+    default heading settings*/
     color: #41464b;
     text-transform: uppercase;
 }
 
+/*=================================================
+                Paraliax (Gerneric)
+=================================================*/
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* so that image covers as much as posible */
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*=================================================
+                Buttons (btn) (Gerneric)
+=================================================*/
+
+.btn-general {
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    /* the CSS padding properties are used to generate space around an element's content, inside of any defined borders. */
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* bug set to wrong setting "captilize" */
+}
+
+.btn-white {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-white:hover, .btn-white:focus {
+    /* button effect for "btn-white" button when over it */
+    background-color: fff;
+    color: #41464b;
+}
+
+/*=================================================
+                Content Classes (Gerneric)
+=================================================*/
+
+.content-box {
+    padding: 60px 0 60px 0px;
+    /* spacing between sections in services section */
+}
+
+.content-title h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto 30px auto;
+}
+
+/*=================================================
+                HOME SECTION
+=================================================*/
+
 #home {
     height: 100%;
-    /* Have to set html and body and home equall to 100% so that home-cover can be set to 100% so the home image can be seen corectly */
 }
 
 #home-cover {
     height: 100%;
-    /* Have to set html and body and home equall to 100% so that home-cover can be set to 100% so the home image can be seen corectly */
+    /* have to set html and body and home equall to 100% so that home-cover can be set to 100% so the home image can be seen corectly */
     background-image: url(../img/bg-home.jpg);
     /* .. becouse we have to go back out to the img folder */
 }
@@ -51,6 +119,7 @@ h3 {
 #home-content-box {
     width: 100%;
     height: 100%;
+    /* home content-box working area allowed for it and and all its contents (test, images etc)*/
     display: table;
 }
 
@@ -61,56 +130,14 @@ h3 {
 }
 
 #home-heading h3 {
+    /* settings for the text "WATCH OUT THE MODERN RESPONSIVE WEBSITE!"*/
     color: #fff;
     font-size: 55px;
     font-weight: 700;
     margin: 20px 0 20px 0;
 }
 
-/*
-=================================================
-                Paraliax (Gerneric)
-=================================================
-*/
-
-.bg-parallax {
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* So that image covers as much as posible */
-    background-position: center;
-    background-attachment: fixed;
-}
-
-/*
-=================================================
-                Buttons (Gerneric)
-=================================================
-*/
-
-.btn-general {
-    border-width: 2px;
-    border-radius: 0;
-    padding: 12px 26px 12px 26px;
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase; /* Bug set to wrong setting "captilize" */
-}
-
-.btn-white {
-    border-color: #fff;
-    color: #fff;
-}
-
-.btn-white:hover, .btn-white:focus {
-    background-color: #fff;
-    color: #41464b;
-}
-
-/*
-=================================================
-                Animation (Gerneric)
-=================================================
-*/
+/* Animation delays and durations for home section only*/
 
 home-cover, #home-heading, #home-btn {
     animation-duration: .5s;
@@ -128,79 +155,48 @@ home-cover, #home-heading, #home-btn {
     animation-delay: 1s;
 }
 
-/*
-=================================================
-                Content (Gerneric)
-=================================================
-*/
-
-.content-box {
-    padding: 60px 0 60px 0px; /* Spacing between sections in services section */
-}
-
-.content-title h3 {
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
-    margin: 0 0 30px 0;
-}
-
-.content-title-underline {
-    width: 30px;
-    height: 3px;
-    background-color: #34c6d3;
-    margin: 0 auto 30px auto;
-}
-
-/*
-=================================================
-                Services
-=================================================
-*/
+/*=================================================
+                SERVICES SECTION
+=================================================*/
 
 .service-item {
     padding: 20px 0px 20px 0;
     margin-bottom: 20px;
     cursor: pointer;
+    /* changes curcor to ponter */
 }
 
 .service-item-icon i {
+    /* The <i> tag can be used to indicate a technical term, a phrase from another language, a thought, or a ship name, etc. */
+    /* icon settings */
     color: #34c6d3;
+    /* icon color */
     float: left;
+    /* location of icon "object" in relation to text and header inside service-item */
     padding: 15px;
     margin-right: 25px;
+    /* space between icon "object" and text and header inside service-item */
     width: 75px;
     height: 75px;
     text-align: center;
+    /* centers icon into center */
 }
 
 .service-item:hover .service-item-icon i {
+    /* button effect for "service-item-icon" button when over it */
     color: #fff;
     background-color: #34c6d3;
 }
 
 .service-item-title h3 {
+    /* the <h1> to <h6> tags are used to define HTML headings. */
     font-size: 20px;
     font-weight: 400;
     margin: 0 0 10px 0;
 }
 
 .service-item-desc p {
+    /* the <p> tag defines a paragraph. */
     margin: 0;
     padding-left: 85px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
