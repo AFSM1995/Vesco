@@ -260,3 +260,29 @@ home-cover, #home-heading, #home-btn {
         /* added space between button and paragrapgh */
     margin-bottom: 30px;
 }
+
+/*=================================================
+                WORK SECTION
+=================================================*/
+
+.row.no-gutters [class*=col-] {
+    /* "class*=col-" selects all colums inside the row */
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-wrapper {
+    /* hide zoom overflow */
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    /* smooth in smooth zoom effect */
+    transition: transform .5s ease;
+}
+
+.img-wrapper img:hover {
+    /* zoom effect on image when hovered over */
+    transform: scale(1.5);
+    cursor: zoom-in;
+}

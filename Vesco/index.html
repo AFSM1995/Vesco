@@ -16,7 +16,8 @@
         <!-- order is important -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-widit, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- bug "width" not "widit" -->
         <!-- tells browser which text encription to use -->
         <!-- helps with Internet Exolorer compatibitibly -->
         <!-- scales website according to device, very important -->
@@ -38,14 +39,17 @@
     
     <!-- bootstrap.css EXTERNAL RESOURCE-->
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-        <!-- BUG: rel not ref caused the button border function to not work -->
+        <!-- bug: rel not ref caused the button border function to not work -->
 
     <!-- animate.css EXTERNAL RESOURCE-->
     <link rel="stylesheet" href="css/animate/animate.css">
     
+    <!-- magnific-popup.css EXTERNAL RESOURCE-->
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
+    
     <!-- style.css external file-->
     <link rel="stylesheet" href="css/style.css">
-        <!-- Connects this file to style.css -->
+        <!-- connects this file to style.css -->
 
 </head>
 
@@ -94,7 +98,7 @@
         <div class="content-box">
             <!-- bug forgot "=" after class -->
 
-            <!-- Generic templete aka class for title -->
+            <!-- generic templete aka class for title -->
             <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
                 <h3> Services </h3>
                 <!-- section title -->
@@ -238,7 +242,7 @@
                             <!-- wrapper for service item -->
 
                             <div class="service-item-icon">
-                                <!--wWrapper for icon -->
+                                <!--wrapper for icon -->
                                 <i class="fa fa-life-ring fa-3x"></i>
                                     <!-- using fontawesome "fa", them link to icon, the size of the icon -->
                             </div>
@@ -293,7 +297,7 @@
                             
                                 <!-- about title -->
                                 <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                                        <!-- Generic templete aka class for title copied from services section -->
+                                        <!-- generic templete aka class for title copied from services section -->
                                     <h3> About Vesco</h3>
                                     <div class="content-title-underline"></div>
                             
@@ -339,19 +343,21 @@
     <section id="work">
     
         <div class="content-box">
-            <!-- Generic templete aka class for title -->
+            <!-- generic templete aka class for title -->
             <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
                 <h3>Our Work</h3>
-                <!-- --- title -->
+                <!-- title -->
                 <div class="content-title-underline"></div>
             </div>
         </div>
         
-        <div class="container">
-            <!-- Generic templete for container class -->
+        <div class="container-fluid">
+            <!-- fluid expands screen to 100% -->
+            <!-- generic templete for container class -->
         
-            <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                <!-- Generic templete for row class -->
+            <div class="row no-gutters wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                <!-- no-gutters created in .css file and inserted here so .css can work with this argument -->
+                <!-- generic templete for row class -->
                 
                 <div class="col-md-3 col-sm-4">
                     <div class="img-wrapper">
@@ -428,7 +434,9 @@
             </div>
         </div>
     </section>
-
+    
+    
+    
     <!-- temporary space -->
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -441,6 +449,9 @@
 
     <!-- wow.js EXTERNAL RESOURCE-->
     <script src="js/wow/wow.min.js"></script>
+    
+    <!-- magnific-popup.min.js EXTERNAL RESOURCE-->
+    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- custom.js EXTERNAL RESOURCE-->
     <script src="js/custom.js"></script>
