@@ -17,9 +17,19 @@ $(function() {
 
     $("#work") .magnificPopup({
         delegate: 'a', // child items selector, by clicking on it popup will open
-        type: 'image', // , to turn nclude gallery
+        type: 'image', // , to turn include gallery
         gallery: {
             enabled: true
         }
     });
+});
+
+/*==================================================================
+                        TEAM
+==================================================================*/
+
+$(function() {
+    
+  $("#team-members").owlCarousel();
+    
 });
