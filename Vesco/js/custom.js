@@ -86,6 +86,27 @@ $(function() {
 
 });
 
+/*==================================================================
+                        CLIENTS
+==================================================================*/
+
+$(function() {
+// show/hide the navigation bar
+    
+    $(window).scroll(function() {
+                     
+        if($(this).scrollTop() < 50 ) {
+            // hide the nav bar
+            $("nav").removeClass("vesco-top-nav")
+            
+        } else {
+            // show the nav bar
+            $("nav").addClass("vesco-top-nav")
+        }
+        
+    });
+    
+});
 
 
 
