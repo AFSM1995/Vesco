@@ -97,16 +97,16 @@
                         <ul class="nav navbar-nav">
                             <!-- "nav navbar-nav" makes the ul a horizontal list -->
                             
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#work">Work</a></li>
-                            <li><a href="#team">Team</a></li>
-                            <li><a href="#testimonials">Testimonials</a></li>
-                            <li><a href="#pricing">Pricing</a></li>
-                            <li><a href="#stats">Stats</a></li>
-                            <li><a href="#clients">Clients</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a class="smooth-scroll" href="#home">Home</a></li>
+                            <li><a class="smooth-scroll" href="#services">Services</a></li>
+                            <li><a class="smooth-scroll" href="#about">About</a></li>
+                            <li><a class="smooth-scroll" href="#work">Work</a></li>
+                            <li><a class="smooth-scroll" href="#team">Team</a></li>
+                            <li><a class="smooth-scroll" href="#testimonials">Testimonials</a></li>
+                            <li><a class="smooth-scroll" href="#pricing">Pricing</a></li>
+                            <li><a class="smooth-scroll" href="#stats">Stats</a></li>
+                            <li><a class="smooth-scroll" href="#clients">Clients</a></li>
+                            <li><a class="smooth-scroll" href="#contact">Contact</a></li>
                         </ul>
                         
                     </div>
@@ -141,7 +141,8 @@
                     </div>
 
                         <div id="home-btn" class="animated zoomIn">
-                            <a class="btn btn-lg btn-general btn-white" herf="#work" role="button" title="View Our Work">View Our Work</a>
+                            <a class="smooth-scroll btn btn-lg btn-general btn-white" href="#work" role="button" title="View Our Work">View Our Work</a>
+                                <!-- bug href not herf -->
                         </div>
 
                 </div>
@@ -378,7 +379,7 @@
                                 <div id="button-abt" class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                                     <!-- animation copied from content-title, class="wow fadeInDown" so animations work -->
                                     
-                                    <a class="btn btn-lg btn-general btn-blue" herf="#work" role="button">Our Work</a>
+                                    <a class="btn btn-lg btn-general btn-blue smooth-scroll" href="#work" role="button">Our Work</a>
                                         <!-- btn-blue ancored here-->
                                         <!-- bootstrap button classes check documintation-->
                                         <!-- btn-general is a class we made in home section in .css (adds defult styling-->
@@ -1165,13 +1166,13 @@
                         
                         <div id="footer-menu">
                             <ul>
-                                <li><a href="#home">Home</a>/</li>
-                                <li><a href="#services">Services</a>/</li>
-                                <li><a href="#work">Work</a>/</li>
-                                <li><a href="#team">Team</a>/</li>
-                                <li><a href="#testimonials">Testimonials</a>/</li>
-                                <li><a href="#pricing">Pricing</a>/</li>
-                                <li><a href="#stats">Stats</a></li>
+                                <li><a class="smooth-scroll" href="#home">Home</a>/</li>
+                                <li><a class="smooth-scroll" href="#services">Services</a>/</li>
+                                <li><a class="smooth-scroll" href="#work">Work</a>/</li>
+                                <li><a class="smooth-scroll" href="#team">Team</a>/</li>
+                                <li><a class="smooth-scroll" href="#testimonials">Testimonials</a>/</li>
+                                <li><a class="smooth-scroll" href="#pricing">Pricing</a>/</li>
+                                <li><a class="smooth-scroll" href="#stats">Stats</a></li>
                                     <!-- # links the footer menu to the appropriate section on the website -->    
                             </ul>
                         </div>
@@ -1207,6 +1208,9 @@
     
     <!-- counterup.min.js EXTERNAL RESOURCE-->
     <script src="js/counter/jquery.counterup.min.js"></script>
+    
+    <!-- jquery.easing.js EXTERNAL RESOURCE-->
+    <script src="js/easing/jquery.easing.1.3.js"></script>
 
     <!-- custom.js EXTERNAL RESOURCE-->
     <script src="js/custom.js"></script>

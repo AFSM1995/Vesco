@@ -108,8 +108,29 @@ $(function() {
     
 });
 
+/*==================================================================
+                        SMOOTH SCROLLING
+==================================================================*/
 
 
+$(function() {
+    
+    $("a.smooth-scroll").click(function(event){
+        
+        event.preventDefault();
+        
+        // get/return id like #about etc
+        var section = $(this).attr("href");
+        
+        $('html, body').animate({
+            
+            scrollTop: $(section).offset().top -64
+            
+        }, 1250, "easeInOutExpo"); // 1.25 secound animation
+        
+    });
+    
+});
 
 
 
