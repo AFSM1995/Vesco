@@ -121,6 +121,14 @@ default heading settings*/
     color: #34c6d3;
 }
 
+.icon-white i {
+    color: #fff;
+}
+
+.icon-white i:hover {
+    color: #34c6d3;
+}
+
 /*=================================================
                 Content Classes (Gerneric)
 =================================================*/
@@ -513,11 +521,60 @@ ul.pricing-specification li p {
     margin-top: 0;
 }
 
+/*=================================================
+                CLIENT SECTION
+=================================================*/
 
+.client {
+    padding: 40px 0;
+}
 
+/*=================================================
+                CONTACT SECTION
+=================================================*/
 
+footer {
+    background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0,0,0,0.1)
+}
 
+#contact-left h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
 
+#contact-left p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#contact-info {
+    background-image: url("../img/world-map.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+        /* image is scaled up to contain area */
+}
+
+address {
+    color: #fff;
+}
+
+address strong, #phone-fax-email {
+    letter-spacing: 1px;
+}
+
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: white;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: white;
+}
 
 
 
