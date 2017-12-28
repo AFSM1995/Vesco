@@ -621,6 +621,59 @@ form .form-control {
     color: #34c6d3;
 }
 
+/*=================================================
+                NAVIGATION SECTION
+=================================================*/
+
+.navbar {
+    padding: 20px 0;
+}
+
+.vesco-top-nav{
+    background: rgba(0,0,0,0.7);
+    padding: 7px 0;
+}
+
+.vesco-nav-wrapper {
+    padding: 0 85px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav > li > a {
+    /* ">" child operator, lookk for child elements */
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    /* ">" child operator, lookk for child elements */
+    background: none;
+    color: #34c6d3;
+}
+
+.navbar-toggle {
+    background-color: rgba(0,0,0,0.1);
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-collapse {
+    max-height: none !important;
+}
+
+
+
+
 
 
 
