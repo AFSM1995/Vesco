@@ -576,9 +576,50 @@ form .form-control {
     color: white;
 }
 
+/*=================================================
+                FOOTER SECTION
+=================================================*/
 
+#footer-bottom {
+    background-color: rgba(0,0,0,0.1);
+    padding: 30px 0px;
+    margin-top: 60px;
+}
 
+#footer-copyrights p {
+    margin: 0;
+    color: #fff;
+}
 
+#footer-menu {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+
+#footer-menu ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover {
+    color: #34c6d3;
+}
 
 
 
