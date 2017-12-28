@@ -87,7 +87,7 @@ $(function() {
 });
 
 /*==================================================================
-                        CLIENTS
+                        NAVIGATION
 ==================================================================*/
 
 $(function() {
@@ -95,13 +95,15 @@ $(function() {
     
     $(window).scroll(function() {
                      
-        if($(this).scrollTop() < 50 ) {
+        if  ($(this).scrollTop() < 50) {
             // hide the nav bar
-            $("nav").removeClass("vesco-top-nav")
+            $("nav").removeClass("vesco-top-nav");
+            $("#back-to-top").fadeOut();
             
         } else {
             // show the nav bar
-            $("nav").addClass("vesco-top-nav")
+            $("nav").addClass("vesco-top-nav");
+            $("#back-to-top").fadeIn();
         }
         
     });
