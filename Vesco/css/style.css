@@ -549,7 +549,7 @@ footer {
     border-top: 5px solid rgba(0,0,0,0.1)
 }
 
-#contact-left h3 {
+#contact-left h3, #contact-right h3 {
     color: #fff;
     font-size: 27px;
     font-weight: 700;

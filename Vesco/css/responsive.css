@@ -132,40 +132,76 @@
         min-width: 100%;
     }
     
+    /* testimonials */
+    
+    .testimonial blockquote {
+        padding: 6px 50px;
+    }
+    
+    .testimonial blockquote:before {
+        left: 10px;
+    }
+    
+    .testimonial blockquote:after {
+        right: 10px;
+    }
+    
+    .testimonial blockquote p {
+        font-size: 16px;
+    }
+    
+    /* stats */
+    .stats-item {
+        padding: 20px 0;
+    }
+    
+    /* footer */
+    #footer-copyrights {
+        text-align: center;
+    }
+    
 }
 
 @media (max-width: 480px) {
   
-    /* mobile menu */
-    .navbar {
-        background: rgba(0,0,0,0.7);
-        padding: 0;
-    }
-    
-    .navbar-nav {
-        float: left;
-    }
-    
-    .vesco-nav-wrapper {
-        padding: 0;
-    }
+    /* good to go */
     
 }
 
 @media (max-width: 320px) {
     
-    /* mobile menu */
-    .navbar {
-        background: rgba(0,0,0,0.7);
-        padding: 0;
+    /* services */
+    
+    .servive-item-icon i {
+        width: 58px;
+        height: 58px;
+        padding: 7px;
     }
     
-    .navbar-nav {
-        float: left;
+    .service-item-title h3 {
+        font-size: 17px;
     }
     
-    .vesco-nav-wrapper {
-        padding: 0;
+    #about-content-box {
+        margin-top: 40px;
+    }
+    
+        /* testimonials */
+    
+    .testimonial img {
+        max-width: 80px;
+    }
+    
+    .testimonial blockquote {
+        padding: 6px 30px;
+    }
+    
+    .testimonial blockquote:before {
+        left: 7px;
+    }
+    
+    .testimonial blockquote:after {
+        right: 7px;
     }
     
 }
