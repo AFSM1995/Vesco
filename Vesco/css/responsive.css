@@ -1,0 +1,134 @@
+/*=================================================
+                BOOTSTRAP MEDIA QUERIES
+=================================================*/
+
+/*=================================================
+                LARGE MEDIA QUERIES
+=================================================*/
+/* large devices (desktops & laptops) */
+
+@media (min-width: 1200px) {
+  
+    /* good to go */
+    
+}
+
+/*=================================================
+                MEDIUM MEDIA QUERIES
+=================================================*/
+/* medium devices (landscape tablets & medium desktops) */
+/* made a custom bootstrap file at bootsrap.com to fix the memu bar trigger */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    /* mobile menu */
+    .navbar {
+        background: rgba(0,0,0,0.7);
+        padding: 0;
+    }
+    
+    .navbar-nav {
+        float: left;
+    }
+    
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+}
+
+/*=================================================
+                SMALL MEDIA QUERIES
+=================================================*/
+/* small devices (portrait tablets & small desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+   
+    /* mobile menu */
+    .navbar {
+        background: rgba(0,0,0,0.7);
+        padding: 0;
+    }
+    
+    .navbar-nav {
+        float: left;
+    }
+    
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+    
+    /* about - remove diagonal border */
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+    }
+    
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+    
+    /* stats */
+    .stats-item {
+        padding: 20px 0;
+    }
+    
+    /* footer */
+    #footer-copyrights {
+        text-align: center;
+    }
+    
+}
+
+
+/*=================================================
+                EXTRA SMALL MEDIA QUERIES
+=================================================*/
+/* extra small devices (landscape phones & portrait tablets) */
+
+@media (max-width: 767px) {
+ 
+    
+    
+}
+
+@media (max-width: 480px) {
+  
+    
+    
+}
+
+@media (max-width: 320px) {
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

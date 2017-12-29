@@ -82,6 +82,32 @@ $(function() {
         smartSpeed: 700,
         loop: true,
         autoplayHoverPause: true,
+        
+        // responsive code copied from owl carousel documintation
+        responsive: {
+            
+            // breakpoint from 0 up
+            0: { 
+                items: 1
+            },
+
+            // breakpoint from 480 up
+            480: {
+                items: 3
+            },
+
+            // breakpoint from 768 up
+            768: {
+                items: 5
+            },
+            
+            // breakpoint from 992 up
+            992: {
+                items: 6
+            }
+            
+        }
+        
     });
 
 });
@@ -109,6 +135,19 @@ $(function() {
     });
     
 });
+
+// close mobile menu on click
+
+$(function() {
+    
+    $(".navbar-collapse ul li a").on("click touch", function() {
+        
+        $(".navbar-toggle").click();
+        
+    })
+    
+});
+
 
 /*==================================================================
                         SMOOTH SCROLLING
