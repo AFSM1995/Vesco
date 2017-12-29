@@ -69,7 +69,7 @@
    
     <header>
         
-        <nav class="navbar navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-fixed-top">
             <!-- navbar-fixed-top, bothstrap class, the bar stays fixed when you scroll -->
             <!-- vesco-top-nav removed initially to show/hide the navigation bar-->
             
@@ -179,12 +179,12 @@
             <div class="container">
                 <!-- bug typed containers, caused section margins to be spread out more -->
 
-                <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                <div class="row">
 
                     <div class="col-md-4  col-sm-6">
                         <!-- "col-sm-6" only for small devices-->
 
-                        <div class="service-item">
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                             <!-- wrapper for service item -->
 
                             <div class="service-item-icon">
@@ -210,7 +210,7 @@
                     <div class="col-md-4 col-sm-6">
                         <!-- "col-sm-6" only for small devices-->
 
-                        <div class="service-item">
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                             <!-- wrapper for service item -->
 
                             <div class="service-item-icon">
@@ -236,7 +236,7 @@
                     <div class="col-md-4 col-sm-6">
                         <!-- "col-sm-6" only for small devices-->
 
-                        <div class="service-item">
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                             <!-- wrapper for service item -->
 
                             <div class="service-item-icon">
@@ -262,7 +262,7 @@
                     <div class="col-md-4 col-sm-6">
                         <!-- "col-sm-6" only for small devices-->
 
-                        <div class="service-item">
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                             <!-- wrapper for service item -->
 
                             <div class="service-item-icon">
@@ -288,7 +288,7 @@
                     <div class="col-md-4 col-sm-6">
                         <!-- "col-sm-6" only for small devices-->
 
-                        <div class="service-item">
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                             <!-- wrapper for service item -->
 
                             <div class="service-item-icon">
@@ -314,7 +314,7 @@
                     <div class="col-md-4 col-sm-6">
                         <!-- "col-sm-6" only for really small devices-->
 
-                        <div class="service-item">
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                             <!-- wrapper for service item -->
 
                             <div class="service-item-icon">
@@ -391,7 +391,7 @@
                                 <div id="button-abt" class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                                     <!-- animation copied from content-title, class="wow fadeInDown" so animations work -->
                                     
-                                    <a class="btn btn-lg btn-general btn-blue smooth-scroll" href="#work" role="button">Our Work</a>
+                                    <a class="btn btn-lg btn-general btn-blue smooth-scroll" href="#work" role="button" title="View Work">Our Work</a>
                                         <!-- btn-blue ancored here-->
                                         <!-- bootstrap button classes check documintation-->
                                         <!-- btn-general is a class we made in home section in .css (adds defult styling-->
@@ -531,7 +531,7 @@
             <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
 
                 <h3>Our Team</h3>
-                <!-- --- title -->
+                <!-- title -->
                 <div class="content-title-underline"></div>
 
             </div>
@@ -681,7 +681,7 @@
                 <div class="content-title content-title-white wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
 
                     <h3>What Our Customers Say</h3>
-                    <!-- --- title -->
+                    <!-- title -->
 
                     <div class="content-title-underline"></div>
 
@@ -797,7 +797,7 @@
             <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
                 
                 <h3>Our Pricing</h3>
-                <!-- --- title -->
+                <!-- title -->
                 <div class="content-title-underline"></div>
 
             </div>
@@ -932,7 +932,7 @@
                 <div class="content-title content-title-white wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
 
                     <h3>We Never Stop Improving</h3>
-                    <!-- --- title -->
+                    <!-- title -->
                     <div class="content-title-underline"></div>
 
                 </div>
@@ -1017,7 +1017,7 @@
             <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
                 
                 <h3>Clients</h3>
-                <!-- --- title -->
+                <!-- title -->
                 <div class="content-title-underline"></div>
 
             </div>
@@ -1150,7 +1150,7 @@
                             
                                 <input type="text" name="full-name" placeholder="Full Name" class="form-control">
                                 <input type="text" name="email" placeholder="Email Address" class="form-control">
-                                <textarea rows="5" name="message" placeholder="Message...." class="form-control"></textarea>
+                                <textarea rows="5" name="message" placeholder="Message..." class="form-control"></textarea>
                                 
                                 <div id="send-btn">
                                 
@@ -1210,7 +1210,7 @@
             
         </div>
         
-        <a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll" title="home" role="button"> 
+        <a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll hidden-sm hidden-xs" title="home" role="button"> 
             <i class="fa fa-angle-up"></i>
                 <!-- bootstrap butoon class-->
             
@@ -1249,4 +1249,4 @@
 
 </body>
 
-<html>
+</html>

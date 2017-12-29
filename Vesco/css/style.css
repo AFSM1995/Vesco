@@ -408,7 +408,7 @@ h4.team-member-designation {
     font-size: 80px;
     font-style: normal;
     line-height: 1;
-    width 30px;
+    width: 30px;
     height: 30px;
     position: absolute;
 
@@ -569,6 +569,10 @@ footer {
 
 address {
     color: #fff;
+}
+
+address strong {
+    font-size: 16px;
 }
 
 address strong, #phone-fax-email {
