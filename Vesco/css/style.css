@@ -1,6 +1,5 @@
 /*=================================================
 Font Family     : Roboto Condenced (Google Fonts)
-
 Greenish Blue   : #34c6d3       (Buttons, icons, links, lines & background)
 Steel Gray      : #41464b       (Headline)
 Blue Bayoux     : #64707b       (Paragraphs)
@@ -11,7 +10,6 @@ Black           : #000
 /*=================================================
                     General 
 =================================================*/
-
 html, body {
 /* html & body are perant elements */
     height: 100%;
@@ -19,12 +17,10 @@ html, body {
     set at 100%: home work area uses full area.
     set above 100%: scroll down till you reach website massages.*/
 }
-
 body {
     font-family: "Roboto Condensed", sans-serif;
     /* sets font for the website "," if first font is unavailable*/
 }
-
 p {
 /* the <p> tag defines a paragraph. 
 default paragraph settings*/
@@ -32,7 +28,6 @@ default paragraph settings*/
     font-size: 16px;
     font-weight: 300;
 }
-
 h3 {
 /* the <h1> to <h6> tags are used to define HTML headings. 
 default heading settings*/
@@ -43,7 +38,6 @@ default heading settings*/
 /*=================================================
                 Paraliax (Gerneric)
 =================================================*/
-
 .bg-parallax {
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +49,6 @@ default heading settings*/
 /*=================================================
                 Buttons (btn) (Gerneric)
 =================================================*/
-
 .btn-general {
     border-width: 2px;
     border-radius: 0;
@@ -66,30 +59,25 @@ default heading settings*/
     text-transform: uppercase;
         /* bug set to wrong setting "captilize" */
 }
-
 .btn-white {
     border-color: #fff;
     color: #fff;
 }
-
 .btn-white:hover, .btn-white:focus {
         /* button effect for "btn-white" button when over it */
     background-color: #fff;
     color: #41464b;
 }
-
 .btn-blue {
         /* button effect for "btn-blue" copied from up top */
     border-color: #34c6d3 ;
     color: #34c6d3 ;
 }
-
 .btn-blue:hover, .btn-blue:focus {
         /* button effect for "btn-blue" button when over it */
     background-color: #34c6d3;
     color: #fff;
 }
-
 .btn-back-to-top {
     position: fixed;
     bottom: 20px;
@@ -103,11 +91,9 @@ default heading settings*/
 /*=================================================
                 Social Icons (Gerneric)
 =================================================*/
-
 .social-list {
     padding-left: 0;
 }
-
 .social-list li {
         /* accses list items inside social-list */
     list-style: none;
@@ -118,23 +104,18 @@ default heading settings*/
     margin-right: 6px;
     margin-top: 10px;
 }
-
 .social-icon i {
     font-size: 17px;
 }
-
 .icon-gray i {
     color: #64707b;
 }
-
 .icon-gray i:hover {
     color: #34c6d3;
 }
-
 .icon-white i {
     color: #fff;
 }
-
 .icon-white i:hover {
     color: #34c6d3;
 }
@@ -142,23 +123,19 @@ default heading settings*/
 /*=================================================
                 Content Classes (Gerneric)
 =================================================*/
-
 .content-box {
     padding: 60px 0 60px 0px;
         /* spacing between sections in services section */
 }
-
 .content-title h3 {
     font-size: 30px;
     font-weight: 700;
     text-align: center;
     margin: 0 0 30px 0;
 }
-
 .content-title-white h3 {
     color: white;
 }
-
 .content-title-underline {
     width: 30px;
     height: 3px;
@@ -169,31 +146,26 @@ default heading settings*/
 /*=================================================
                 HOME SECTION
 =================================================*/
-
 #home {
     height: 100%;
 }
-
 #home-cover {
     height: 100%;
         /* have to set html and body and home equall to 100% so that home-cover can be set to 100% so the home image can be seen corectly */
     background-image: url(../img/bg-home.jpg);
         /* .. becouse we have to go back out to the img folder */
 }
-
 #home-content-box {
     width: 100%;
     height: 100%;
         /* home content-box working area allowed for it and and all its contents (test, images etc)*/
     display: table;
 }
-
 #home-content-box-inner {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
 }
-
 #home-heading h3 {
 /* settings for the text "WATCH OUT THE MODERN RESPONSIVE WEBSITE!"*/
     color: #fff;
@@ -201,21 +173,16 @@ default heading settings*/
     font-weight: 700;
     margin: 20px 0 20px 0;
 }
-
 /* Animation delays and durations for home section only*/
-
 home-cover, #home-heading, #home-btn {
     animation-duration: .5s;
 }
-
 #home-cover {
     animation-delay: .1s;
 }
-
 #home-heading {
     animation-delay: .5s;
 }
-
 #home-btn {
     animation-delay: 1s;
 }
@@ -223,14 +190,12 @@ home-cover, #home-heading, #home-btn {
 /*=================================================
                 SERVICES SECTION
 =================================================*/
-
 .service-item {
     padding: 20px 0px 20px 0;
     margin-bottom: 20px;
     cursor: pointer;
         /* changes curcor to ponter */
 }
-
 .service-item-icon i {
 /* The <i> tag can be used to indicate a technical term, a phrase from another language, a thought, or a ship name, etc. */
 /* icon settings */
@@ -246,20 +211,17 @@ home-cover, #home-heading, #home-btn {
     text-align: center;
         /* centers icon into center */
 }
-
 .service-item:hover .service-item-icon i {
         /* button effect for "service-item-icon" button when over it */
     color: #fff;
     background-color: #34c6d3;
 }
-
 .service-item-title h3 {
 /* the <h1> to <h6> tags are used to define HTML headings. */
     font-size: 20px;
     font-weight: 400;
     margin: 0 0 10px 0;
 }
-
 .service-item-desc p {
 /* the <p> tag defines a paragraph. */
     margin: 0;
@@ -269,7 +231,6 @@ home-cover, #home-heading, #home-btn {
 /*=================================================
                 ABOUT SECTION
 =================================================*/
-
 #about-bg-diagonal {
 /* about section image */
     width: 60%;
@@ -280,35 +241,29 @@ home-cover, #home-heading, #home-btn {
     border-left: 200px solid #fff;
     border-top: 700px solid transparent;
 }
-
 #about-content-box {
     float: left;
     height: 700px;
 }
-
 #about-content-box-outer {
         /* 100% so it takes up all of the space in its parent element "about-content-box" */
     width: 100%;
     height: 100%;
     display: table;
 }
-
 #about-content-box-inner {
         /* used these 3 content elemets the same way in home section */
     display: table-cell;
     vertical-align: middle;
 }
-
 #about h3 {
         /* targeting h3 element inside the about section */
     text-align: left;
 }
-
 #about .content-title-underline {
         /* targeting content-title-underline element inside the about section */
     margin: 0 0 30px 0;
 }
-
 #about-desc p {
         /* added space between button and paragrapgh */
     margin-bottom: 30px;
@@ -317,23 +272,19 @@ home-cover, #home-heading, #home-btn {
 /*=================================================
                 WORK SECTION
 =================================================*/
-
 .row.no-gutters [class*=col-] {
     /* "class*=col-" selects all colums inside the row */
     padding-left: 0;
     padding-right: 0;
 }
-
 .img-wrapper {
     /* hide zoom overflow */
     overflow: hidden;
 }
-
 .img-wrapper img {
     /* smooth in smooth zoom effect */
     transition: transform .5s ease;
 }
-
 .img-wrapper img:hover {
     /* zoom effect on image when hovered over */
     transform: scale(1.5);
@@ -343,23 +294,19 @@ home-cover, #home-heading, #home-btn {
 /*=================================================
                 TEAM SECTION
 =================================================*/
-
 .team-member {
     margin: 0 15px;
     
 }
-
 .team-member-info {
     padding: 10px 0 30px 0;
 }
-
 h4.team-member-name {
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 1px;
     padding-top: 20px;
 }
-
 h4.team-member-designation {
     color: #34c6d3;
     font-size: 15px;    
@@ -372,24 +319,19 @@ h4.team-member-designation {
 /*=================================================
                 TESTIMONIALS SECTION
 =================================================*/
-
 #testimonials-cover {
     background-image: url(../img/bg-testimonials.jpg);
 }
-
 #testimonials .content-box {
     background-color: rgba(0,0,0,0.1)
 }
-
 #customers-testimonials {
     padding: 50px 0;
 }
-
 .testimonial img {
     max-width: 120px;
     margin: 0 auto 0 auto;
 }
-
 .testimonial blockquote {
     border: 0;
     font-family: Georgia, sans-serif;
@@ -399,11 +341,9 @@ h4.team-member-designation {
     padding: 6px 150px;
     position: relative;
 }
-
 .testimonial blockquote p {
     color: white;
 }
-
 .testimonial blockquote::before, .testimonial blockquote::after {
     font-size: 80px;
     font-style: normal;
@@ -411,28 +351,21 @@ h4.team-member-designation {
     width: 30px;
     height: 30px;
     position: absolute;
-
 }
-
 .testimonial blockquote::before {
     content: "\201C";
     top: 0;
     left: 100px;
-
 }
-
 .testimonial blockquote::after {
     content: "\201D";
     bottom: 0;
     right: 100px;
-
 }
-
 .testimonial-author p {
     color: white;
     font-size: 17px;
 }
-
 .testimonial-author p strong {
     display: block;
 }
@@ -440,13 +373,11 @@ h4.team-member-designation {
 /*=================================================
                 PRICING SECTION
 =================================================*/
-
 .pricing-box {
     border: 3px solid #34c6d3;
     padding: 50px 0;
     margin: 40px 0;
 }
-
 h4.pricing-title {
     background-color: #34c6d3;
     color: white;
@@ -458,40 +389,33 @@ h4.pricing-title {
     text-transform: uppercase;
     margin: 0 0 30px 0;
 }
-
 h3.pricing-value {
     font-size: 60px;
     font-weight: 700;
 }
-
 h3.pricing-value sup {
     font-size: 28px;
     font-weight: normal;
     vertical-align: super;
 }
-
 ul.pricing-specification {
     list-style: none;
     padding-left: 0;
     margin: 20px 0 60px 0;
 }
-
 ul.pricing-specification li p {
     font-weight: 400;
     text-transform: uppercase;
 }
-
 .pricing-box-lg {
     padding: 90px 0;
     margin: 0;
     background-color: #34c6d3;
 }
-
 .pricing-box-lg h4.pricing-title {
     color: #34c6d3;
     background-color: white;
 }
-
 .pricing-box-lg ul.pricing-specification li p {
     color: white;
 }
@@ -499,23 +423,18 @@ ul.pricing-specification li p {
 /*=================================================
                 STATS SECTION
 =================================================*/
-
 #stats-cover {
     background-image: url(../img/bg-stats.jpg);
 }
-
 #stats .content-box {
     background-color: rgba(0,0,0,0.8);
 }
-
 .stats-item {
     padding: 100px 0;
 }
-
 .stats-item i {
     color: #34c6d3
 }
-
 .stats-item h2 {
     color: white;
     font-size: 35px;
@@ -523,7 +442,6 @@ ul.pricing-specification li p {
     margin-top: 15px;
     margin-bottom: 1px;
 }
-
 .stats-item p {
     color: #fff;
     text-transform: uppercase;
@@ -534,7 +452,6 @@ ul.pricing-specification li p {
 /*=================================================
                 CLIENT SECTION
 =================================================*/
-
 .client {
     padding: 40px 0;
 }
@@ -542,43 +459,35 @@ ul.pricing-specification li p {
 /*=================================================
                 CONTACT SECTION
 =================================================*/
-
 footer {
     background-color: #41464b;
     padding-top: 30px;
     border-top: 5px solid rgba(0,0,0,0.1)
 }
-
 #contact-left h3, #contact-right h3 {
     color: #fff;
     font-size: 27px;
     font-weight: 700;
 }
-
 #contact-left p {
     color: #fff;
     margin-bottom: 30px;
 }
-
 #contact-info {
     background-image: url("../img/world-map.png");
     background-repeat: no-repeat;
     background-size: contain;
         /* image is scaled up to contain area */
 }
-
 address {
     color: #fff;
 }
-
 address strong {
     font-size: 16px;
 }
-
 address strong, #phone-fax-email {
     letter-spacing: 1px;
 }
-
 form .form-control {
     background: transparent;
     border-radius: 0;
@@ -593,36 +502,29 @@ form .form-control {
 /*=================================================
                 FOOTER SECTION
 =================================================*/
-
 #footer-bottom {
     background-color: rgba(0,0,0,0.1);
     padding: 30px 0px;
     margin-top: 60px;
 }
-
 #footer-copyrights p {
     margin: 0;
     color: #fff;
 }
-
 #footer-menu {
     float: left;
     color: #fff;
     font-size: 16px;
-    font-weight: 300;
-    
+    font-weight: 300;    
 }
-
 #footer-menu ul {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
 }
-
 #footer-menu ul li {
     display: inline-block;
 }
-
 #footer-menu a {
     color: #fff;
     font-size: 16px;
@@ -630,7 +532,6 @@ form .form-control {
     margin: 0 10px;
     text-decoration: none;
 }
-
 #footer-menu a:hover {
     color: #34c6d3;
 }
@@ -638,26 +539,21 @@ form .form-control {
 /*=================================================
                 NAVIGATION SECTION
 =================================================*/
-
 .navbar {
     padding: 20px 0;
     transition:  all .5s ease-in-out;
         /* responsible for smooth transformation of the menu bar */
 }
-
 .vesco-top-nav{
     background: rgba(0,0,0,0.7);
     padding: 7px 0;
 }
-
 .vesco-nav-wrapper {
     padding: 0 85px;
 }
-
 .navbar-nav {
     float: right;
 }
-
 .navbar-nav > li > a {
     /* ">" child operator, lookk for child elements */
     color: #fff;
@@ -666,65 +562,22 @@ form .form-control {
     letter-spacing: 1px;
     font-weight: 700;
 }
-
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
     /* ">" child operator, lookk for child elements */
     background: none;
     color: #34c6d3;
 }
-
 .navbar-toggle {
     background-color: rgba(0,0,0,0.1);
     border: 1px solid #fff;
     border-radius: 0;
 }
-
 .navbar-toggle .icon-bar {
     background-color: white;
 }
-
 .navbar-collapse {
     max-height: none !important;
 }
-
 .vesco-top-nav ul.navbar-nav > li.active > a {
     color: #34c6d3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} /* 583 lines down from 732 lines 20.4% line reduction */

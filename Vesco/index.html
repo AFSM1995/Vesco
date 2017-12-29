@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <!-- decloration that gose at the top of every html page and means that this page is written in html 5 -->
-
 <html lang="en">
 <!-- represents the view of a document inside the root element -->
 
-<head>
-    
+<head>  
 <!--================================================
                 META DATA / BACKEND SECTION
-=================================================-->
-    
+=================================================-->    
 <!-- information about the document, metadata is not displayed it stores document information -->
 <!-- required mata tags, very important! -->
         <!-- meta not mata ERROR -->
@@ -23,86 +20,63 @@
         <!-- tells browser which text encription to use -->
         <!-- helps with Internet Exolorer compatibitibly -->
         <!-- scales website according to device, very important -->
-
     <!-- title -->
     <title>Modern Responsive Website</title>
-
     <!-- favicon -->
     <link rel="shortcut icon" href="img/favicon.ico">
-        <!-- href refrence to external file -->
-    
+        <!-- href refrence to external file -->     
     <!-- google font EXTERNAL RESOURCE-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i">
         <!-- "300,300i,400,400i,700,700i" sizes you plan on using the less the faster -->
-
     <!-- fontawesome EXTERNAL RESOURCE-->
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
         <!-- online icon source -->
-    
     <!-- bootstrap.css EXTERNAL RESOURCE-->
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
         <!-- bug: rel not ref caused the button border function to not work -->
-
     <!-- animate.css EXTERNAL RESOURCE-->
     <link rel="stylesheet" href="css/animate/animate.css">
-    
     <!-- magnific.popup.css EXTERNAL RESOURCE-->
     <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
-    
     <!-- owl.carousel.js EXTERNAL RESOURCE-->
     <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
-    
     <!-- style.css external file-->
     <link rel="stylesheet" href="css/style.css">
         <!-- connects this file to style.css -->
-    
     <!-- responsive.css external file-->    
     <link rel="stylesheet" href="css/responsive.css">
         <!-- after becouse style.css will be modified -->
-
 </head>
 
 <body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
 <!-- contains all visable page content, text, images, headings etc. -->
       <!-- data-spy, scrolling down a page highligths section in nav-bar -->
    
-    <header>
-        
+    <header>      
         <nav class="navbar navbar-fixed-top">
             <!-- navbar-fixed-top, bothstrap class, the bar stays fixed when you scroll -->
             <!-- vesco-top-nav removed initially to show/hide the navigation bar-->
-            
-            <div class="container-fluid">
-                
-                <div class="vesco-nav-wrapper">
-                    
+            <div class="container-fluid"> 
+                <div class="vesco-nav-wrapper">  
+                 
                     <div class="navbar-header">
-                       
                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#vesco-menu">
                             <!-- "data-target, links this button with the vesco-menu -->
-                           
                            <span class="sr-only">Toggle navigation</span>
                            <span class="icon-bar"></span>
                            <span class="icon-bar"></span>
-                           <span class="icon-bar"></span>
-                           
-                       </button>
-                        
+                           <span class="icon-bar"></span> 
+                       </button>                       
                         <a class="navbar-brand" href="#home">
-                            
-                            <img src="img/logo.png" alt="logo">
-                            
+                            <img src="img/logo.png" alt="logo"> 
                         </a>
-                        
                     </div>
                     
                     <div class="collapse navbar-collapse" id="vesco-menu">
                        <!-- "collapse navbar-collapse", bothstrap class, this div can become calapsable -->
-                        
                         <ul class="nav navbar-nav">
                             <!-- "nav navbar-nav" makes the ul a horizontal list -->
-                            
                             <li><a class="smooth-scroll" href="#home">Home</a></li>
                             <li><a class="smooth-scroll" href="#services">Services</a></li>
                             <li><a class="smooth-scroll" href="#about">About</a></li>
@@ -114,15 +88,11 @@
                             <li><a class="smooth-scroll" href="#clients">Clients</a></li>
                             <li><a class="smooth-scroll" href="#contact">Contact</a></li>
                         </ul>
-                        
-                    </div>
-                    
-                </div>
-                
-            </div>
-            
-        </nav>
-        
+                    </div> 
+                     
+                </div>              
+            </div>           
+        </nav>       
     </header>
     
 <!--================================================
@@ -131,32 +101,23 @@
     
     <section id="home">
         <!-- "section" represents home block of the website -->
-
         <div id="home-cover" class="bg-parallax animated fadeIn">
             <!-- set a divisoin for the main image -->
-
             <div id="home-content-box">
                 <!-- help us vertical align content in the middle -->
-
                 <div id="home-content-box-inner">
-                    <!-- help us vertical align content in the middle -->
-
+                    <!-- help us vertical align content in the middle -->                    
                     <div id="home-heading" class="animated zoomIn">
                         <h3>Watch Out<br>The Modern Responsive Website!</h3> 
                             <!-- no spaces becouse you get spaces in the browser -->
-                    </div>
-
-                        <div id="home-btn" class="animated zoomIn">
-                            <a class="smooth-scroll btn btn-lg btn-general btn-white" href="#work" role="button" title="View Our Work">View Our Work</a>
-                                <!-- bug href not herf -->
-                        </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
+                    </div>                 
+                    <div id="home-btn" class="animated zoomIn">
+                        <a class="smooth-scroll btn btn-lg btn-general btn-white" href="#work" role="button" title="View Our Work">View Our Work</a>
+                            <!-- bug href not herf -->
+                    </div>                   
+                </div>    
+            </div>          
+        </div>        
     </section>
 
 <!--================================================
@@ -164,276 +125,209 @@
 =================================================-->
 
     <section id="services">
-
         <div class="content-box">
             <!-- bug forgot "=" after class -->
-
             <!-- generic templete aka class for title -->
             <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
                 <h3> Services </h3>
                 <!-- section title -->
                 <div class="content-title-underline"></div>
-
             </div>
-
             <div class="container">
                 <!-- bug typed containers, caused section margins to be spread out more -->
-
                 <div class="row">
-
+                   
                     <div class="col-md-4  col-sm-6">
                         <!-- "col-sm-6" only for small devices-->
-
                         <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                             <!-- wrapper for service item -->
-
                             <div class="service-item-icon">
                                 <!-- wrapper for icon -->
                                 <i class="fa fa-paint-brush fa-3x"></i>
                                     <!-- using fontawesome "fa", them link to icon, the size of the icon -->
                             </div>
-
                             <div class="service-item-title">
                                 <!-- wrapper for title -->
                                 <h3>Web Design</h3>
                             </div>
-
                             <div class="service-item-desc">
                                 <!-- wrapper for discription -->
                                 <p>Tamen fabulas id varias tamen qui nam enim.</p>
                             </div>
-
                         </div>
-
                     </div>
 
                     <div class="col-md-4 col-sm-6">
                         <!-- "col-sm-6" only for small devices-->
-
                         <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                             <!-- wrapper for service item -->
-
                             <div class="service-item-icon">
                                 <!-- wrapper for icon -->
                                 <i class="fa fa-laptop fa-3x"></i>
                                     <!-- using fontawesome "fa", them link to icon, the size of the icon -->
                             </div>
-
                             <div class="service-item-title">
                                 <!-- wrapper for title -->
                                 <h3>Web Development</h3>
                             </div>
-
                             <div class="service-item-desc">
                                 <!-- wrapper for discription -->
                                 <p>Tamen fabulas id varias tamen qui nam enim.</p>
                             </div>
-
                         </div>
-
                     </div>
 
                     <div class="col-md-4 col-sm-6">
                         <!-- "col-sm-6" only for small devices-->
-
                         <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                             <!-- wrapper for service item -->
-
                             <div class="service-item-icon">
                                 <!-- wrapper for icon -->
                                 <i class="fa fa-tablet fa-3x"></i>
                                     <!-- using fontawesome "fa", them link to icon, the size of the icon -->
                             </div>
-
                             <div class="service-item-title">
                                 <!-- wrapper for title -->
                                 <h3>Mobile Apps</h3>
                             </div>
-
                             <div class="service-item-desc">
                                 <!-- wrapper for discription -->
                                 <p>Tamen fabulas id varias tamen qui nam enim.</p>
                             </div>
-
                         </div>
-
                     </div>
 
                     <div class="col-md-4 col-sm-6">
                         <!-- "col-sm-6" only for small devices-->
-
                         <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                             <!-- wrapper for service item -->
-
                             <div class="service-item-icon">
                                 <!-- wrapper for icon -->
                                 <i class="fa fa-search fa-3x"></i>
                                     <!-- using fontawesome "fa", them link to icon, the size of the icon -->
                             </div>
-
                             <div class="service-item-title">
                                 <!-- wrapper for title -->
                                 <h3>Seo Optimization</h3>
                             </div>
-
                             <div class="service-item-desc">
                                 <!-- wrapper for discription -->
                                 <p>Lorem ipsum dapibus tempor ipsum, ut dolor sit amet</p>
                             </div>
-
                         </div>
-
                     </div>
 
                     <div class="col-md-4 col-sm-6">
                         <!-- "col-sm-6" only for small devices-->
-
                         <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                             <!-- wrapper for service item -->
-
                             <div class="service-item-icon">
                                 <!-- wrapper for icon -->
                                 <i class="fa fa-pencil-square-o fa-3x"></i>
                                     <!-- using fontawesome "fa", them link to icon, the size of the icon -->
                             </div>
-
                             <div class="service-item-title">
                                 <!-- wrapper for title -->
                                 <h3>UX Design</h3>
                             </div>
-
                             <div class="service-item-desc">
                                 <!-- wrapper for discription -->
                                 <p>Lorem ipsum dapibus tempor ipsum, ut dolor sit amet</p>
                             </div>
-
                         </div>
-
                     </div>
 
                     <div class="col-md-4 col-sm-6">
                         <!-- "col-sm-6" only for really small devices-->
-
                         <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                             <!-- wrapper for service item -->
-
                             <div class="service-item-icon">
                                 <!--wrapper for icon -->
                                 <i class="fa fa-life-ring fa-3x"></i>
                                     <!-- using fontawesome "fa", them link to icon, the size of the icon -->
                             </div>
-
                             <div class="service-item-title">
                                 <!-- wrapper for title -->
                                 <h3>Supports</h3>
                             </div>
-
                             <div class="service-item-desc">
                                 <!-- wrapper for discription -->
                                 <p>Lorem ipsum dapibus tempor ipsum, ut dolor sit amet</p>
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </section>
     
 <!--================================================
                 ABOUT SECTION
 =================================================-->
     
-    <section id="about">
-    
+    <section id="about">    
         <!-- right side image with parallax effect -->
         <div id="about-bg-diagonal" class="bg-parallax"></div>
             <!-- using peralix class to add effect -->
-            <!-- bug ".bg-parallax" broke effect-->
-        
+            <!-- bug ".bg-parallax" broke effect-->        
         <!-- left section title pharagraoh -->
         <div class="container">
-        
-            <div class="row">
-                
-                <div class="col-md-4">
-                
-                    <div id="about-content-box">
-                    
+            <div class="row">        
+                <div class="col-md-4">        
+                    <div id="about-content-box">                                    
                         <div id="about-content-box-outer">
-                            <!-- allow horisontal and vertical alignment of lrft content section in about -->
-                        
+                            <!-- allow horisontal and vertical alignment of lrft content section in about -->                     
                             <div id="about-content-box-inner">
                                 <!-- allow horisontal and vertical alignment of lrft content section in about -->
-                            
                                 <!-- about title -->
+                                
                                 <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
                                         <!-- generic templete aka class for title copied from services section -->
                                     <h3> About Vesco</h3>
                                     <div class="content-title-underline"></div>
-                            
                                 </div>
                                 
                                 <!-- discription under title -->
                                 <div id="about-desc" class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
                                     <!-- animation copied from content-title, class="wow fadeInDown" so animations work -->
-                                
                                     <p>Magna arbitror et dolor amet, fabulas do noster non eu mentitum praesentibus e est ex quid cupidatat. Dolore reprehenderit probant quorum tempor, illum hic ut illum pariatur. Qui o magna aute labore</p>
-                                
                                 </div>
                                 
                                 <!-- button under description -->
                                 <div id="button-abt" class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                    <!-- animation copied from content-title, class="wow fadeInDown" so animations work -->
-                                    
+                                    <!-- animation copied from content-title, class="wow fadeInDown" so animations work -->   
                                     <a class="btn btn-lg btn-general btn-blue smooth-scroll" href="#work" role="button" title="View Work">Our Work</a>
                                         <!-- btn-blue ancored here-->
                                         <!-- bootstrap button classes check documintation-->
                                         <!-- btn-general is a class we made in home section in .css (adds defult styling-->
-                                
-                                </div>
-                        
-                            </div>
-                    
-                        </div>
-                
-                    </div>
-                
-                </div>
-            
-            </div>
-            
+                                </div>                               
+                            </div>                   
+                        </div>                
+                    </div>               
+                </div>            
+            </div>            
         </div>
-        
     </section>
     
 <!--================================================
                 WORK SECTION
 =================================================-->
     
-    <section id="work">
-    
+    <section id="work">   
         <div class="content-box">
             <!-- generic templete aka class for title -->
             <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
                 <h3>Our Work</h3>
                 <!-- title -->
                 <div class="content-title-underline"></div>
-            </div>
-        
+            </div>       
             <div class="container-fluid">
                 <!-- fluid expands screen to 100% -->
                 <!-- generic templete for container class -->
-
                 <div class="row no-gutters wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                     <!-- no-gutters created in .css file and inserted here so .css can work with this argument -->
                     <!-- generic templete for row class -->
-
+                    
                     <div class="col-md-3 col-sm-4">
                         <!-- "col-sm-4" only for small devices-->
                         <div class="img-wrapper">
@@ -444,7 +338,7 @@
                             </a>
                         </div>
                     </div>
-
+                    
                     <div class="col-md-3 col-sm-4">
                         <!-- "col-sm-4" only for small devices-->
                         <div class="img-wrapper">
@@ -454,7 +348,7 @@
                             </a>
                         </div>
                     </div>
-
+                    
                     <div class="col-md-3 col-sm-4"> 
                         <!-- "col-sm-4" only for small devices--> 
                         <div class="img-wrapper">
@@ -524,36 +418,25 @@
 =================================================-->
 
     <section id="team">
-
         <div class="content-box">
             <!-- generic templete aka class for title -->
-
             <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-
                 <h3>Our Team</h3>
                 <!-- title -->
                 <div class="content-title-underline"></div>
-
             </div>
-
             <div class="container">
                 <!-- generic templete for container class -->
-
                 <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                     <!-- generic templete for row class -->
-
                     <div class="col-md-12">
-
                         <div id="team-members" class="owl-carousel owl-theme">
 
                             <div class="team-member">
                                 <!-- Bug should be a "class" not an "id" this did not let style.css style "team-member" -->
-
                                 <img src="img/team/team-1.jpg" class="img-responsive" alt="team member">
                                 <!-- The required alt attribute specifies an alternate text for an image, if the image cannot be displayed. -->
-
                                 <div class="team-member-info text-center">
-
                                     <h4 class="team-member-name">Daniel Watrous</h4>
                                     <h4 class="team-member-designation">CEO</h4>
                                     <ul class="social-list">
@@ -563,19 +446,14 @@
                                         <!-- # = no website url to go to -->
                                         <!-- icon-gray makes the icons gray -->
                                     </ul>
-
                                 </div>
-
                             </div>
 
                             <div class="team-member">
                                 <!-- Bug should be a "class" not an "id" this did not let style.css style "team-member" -->
-
                                 <img src="img/team/team-2.jpg" class="img-responsive" alt="team member">
                                 <!-- The required alt attribute specifies an alternate text for an image, if the image cannot be displayed. -->
-
                                 <div class="team-member-info text-center">
-
                                     <h4 class="team-member-name">Sara Smith</h4>
                                     <h4 class="team-member-designation">Co-Founder</h4>
                                     <ul class="social-list">
@@ -585,19 +463,15 @@
                                         <!-- # = no website url to go to -->
                                         <!-- icon-gray makes the icons gray -->
                                     </ul>
-
                                 </div>
-
                             </div>
 
                             <div class="team-member">
                                 <!-- Bug should be a "class" not an "id" this did not let style.css style "team-member" -->
-
                                 <img src="img/team/team-3.jpg" class="img-responsive" alt="team member">
                                 <!-- The required alt attribute specifies an alternate text for an image, if the image cannot be displayed. -->
-
-                                <div class="team-member-info text-center">
-
+                                
+                                   <div class="team-member-info text-center">
                                     <h4 class="team-member-name">Steve Mike</h4>
                                     <h4 class="team-member-designation">Sr. Developer</h4>
                                     <ul class="social-list">
@@ -607,19 +481,14 @@
                                         <!-- # = no website url to go to -->
                                         <!-- icon-gray makes the icons gray -->
                                     </ul>
-
                                 </div>
-
                             </div>
 
                             <div class="team-member">
                                 <!-- Bug should be a "class" not an "id" this did not let style.css style "team-member" -->
-
                                 <img src="img/team/team-4.jpg" class="img-responsive" alt="team member">
                                 <!-- The required alt attribute specifies an alternate text for an image, if the image cannot be displayed. -->
-
                                 <div class="team-member-info text-center">
-
                                     <h4 class="team-member-name">Robert Hinay</h4>
                                     <h4 class="team-member-designation">Sr. Developer</h4>
                                     <ul class="social-list">
@@ -630,17 +499,13 @@
                                         <!-- icon-gray makes the icons gray -->
                                     </ul>
                                 </div>
-
                             </div>
 
                             <div class="team-member">
                                 <!-- Bug should be a "class" not an "id" this did not let style.css style "team-member" -->
-
                                 <img src="img/team/team-5.jpg" class="img-responsive" alt="team member">
                                 <!-- The required alt attribute specifies an alternate text for an image, if the image cannot be displayed. -->
-
                                 <div class="team-member-info text-center">
-
                                     <h4 class="team-member-name">Mike Tera</h4>
                                     <h4 class="team-member-designation">Sales</h4>
                                     <ul class="social-list">
@@ -650,484 +515,301 @@
                                         <!-- # = no website url to go to -->
                                         <!-- icon-gray makes the icons gray -->
                                     </ul>
-
                                 </div>
-
-                            </div>
-
+                            </div>                          
                         </div>
-
                     </div>
-
                 </div>
-
-            </div>
-                
+            </div>                
         </div>
-
     </section>
     
 <!--================================================
                 TESTIMONIALS
 =================================================-->
 
-    <section id="testimonials">
-    
-        <div id="testimonials-cover" class="bg-parallax animated fadeIn">
-            
+    <section id="testimonials"> 
+        <div id="testimonials-cover" class="bg-parallax animated fadeIn">           
             <div class="content-box">
-
                 <!-- generic templete aka class for title -->
                 <div class="content-title content-title-white wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-
                     <h3>What Our Customers Say</h3>
                     <!-- title -->
-
                     <div class="content-title-underline"></div>
-
                 </div>
-
                 <div class="container">
                 <!-- generic templete for container class -->
-
                     <div class="row wow animated bounceInDown" data-wow-duration="1s" data-wow-delay=".5s">
                         <!-- generic templete for row class -->
-
                         <div class="col-md-12">
-
                             <div id="customers-testimonials" class="text-center owl-carousel owl-theme">
                                 <!-- makes all the content in this div centered, note that the image is not center allined -->
-
-                                <div class="testimonial">
-
+                                
+                                <div class="testimonial">                                   
                                     <img src="img/client/client-1.jpg" class="img-responsive img-circle" alt="testimonial">
-
                                     <blockquote class="text-center">
-
                                         <p>De cernantur concursionibus do incididunt fore nostrud, quibusdam anim quorum ubi quae id aute sed eiusmod ita fore et expetendis irure dolore te legam e do an efflorescere, voluptate quo.</p>
-
                                     </blockquote>
                                     <div class="testimonial-author">
-
                                         <p>
-
                                             <strong>Danial Watrous</strong>
                                                 <!-- strong makes text bold -->
                                             <span>CEO & Founder - Google</span>
                                                 <!-- span hook this position to Danial -->
-
                                         </p>
-
                                     </div>
-
                                 </div>
 
                                 <div class="testimonial">
-
                                     <img src="img/client/client-2.jpg" class="img-responsive img-circle" alt="testimonial">
-
                                     <blockquote class="text-center">
-
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at pulvinar augue. Ut feugiat viverra pellentesque. Integer scelerisque malesuada orci in cursus. Fusce pellentesque urna quis risus rutrum, vitae blandit urna pharetra. Praesent nunc enim, pharetra sed erat nec.</p>
-
-                                    </blockquote>
+                                    </blockquote>                                  
                                     <div class="testimonial-author">
-
                                         <p>
-
                                             <strong>Johan Mathew</strong>
                                                 <!-- strong makes text bold -->
                                             <span>CEO & Founder - Yahoo</span>
-                                                <!-- span hook this position to Danial -->
-                                            
+                                                <!-- span hook this position to Danial -->    
                                         </p>
-
                                     </div>
-
                                 </div>
 
                                 <div class="testimonial">
-
                                     <img src="img/client/client-3.jpg" class="img-responsive img-circle" alt="testimonial">
-
                                     <blockquote class="text-center">
-
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at pulvinar augue. Ut feugiat viverra pellentesque. Integer scelerisque malesuada orci in cursus. Fusce pellentesque urna quis risus rutrum, vitae blandit urna pharetra. Praesent nunc enim, pharetra sed erat nec.</p>
-
-                                    </blockquote>
-                                    
+                                    </blockquote>                                    
                                     <div class="testimonial-author">
-
                                         <p>
-
                                             <strong>Sara Smith</strong>
                                                 <!-- strong makes text bold -->
                                             <span>CEO & Founder - Amazon</span>
-                                                <!-- span hook this position to Danial -->
-                                            
+                                                <!-- span hook this position to Danial -->                                           
                                         </p>
-
                                     </div>
-
                                 </div>
-
+                                 
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
-
-            </div>
-        
-        </div>
-    
+            </div>       
+        </div>    
     </section>
     
 <!--================================================
                 PRICING
 =================================================-->
 
-    <section id="pricing">
-    
-        <div class="content-box">
-        
-            <!-- generic templete aka class for title -->
-            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                
+    <section id="pricing"> 
+        <div class="content-box">      
+            <!-- generic templete aka class for title -->            
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">   
                 <h3>Our Pricing</h3>
                 <!-- title -->
                 <div class="content-title-underline"></div>
-
-            </div>
-        
+            </div>        
             <div class="container">
             <!-- generic templete for container class -->
-
                 <div class="row">
                     <!-- generic templete for row class -->
-
-                    <div class="col-md-4 wow animated zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
                     
-                        <div class="pricing-box text-center">
-                        
+                    <div class="col-md-4 wow animated zoomIn" data-wow-duration="1s" data-wow-delay=".5s">                  
+                        <div class="pricing-box text-center">                     
                             <h4 class="pricing-title">Basic</h4>
                             <h3 class="pricing-value">49<sup>$</sup></h3>
-                                <!-- sup "superscript" $ appeares above the 49 -->
+                                <!-- sup "superscript" $ appeares above the 49 -->                              
                             <ul class="pricing-specification">
                                 <!-- ul = unordered list -->
-                                <li>
-                                    <p>500 EMAILS</p>
-                                </li>
-                                <li>
-                                    <p>5GB DISK SPACE</p>
-                                </li>
-                                <li>
-                                    <p>5GB BANDWIDTH</p>
-                                </li>
-                                <li>
-                                    <p>UNLIMITED DOMAINS</p>
-                                </li>
+                                <li><p>500 EMAILS</p></li>
+                                <li><p>5GB DISK SPACE</p></li>
+                                <li><p>5GB BANDWIDTH</p></li>
+                                <li><p>UNLIMITED DOMAINS</p></li>
                             </ul>
-
                             <div class="pricing-btn">
-
                                 <a class="btn btn-lg btn-general btn-blue" href="#" role="button">Perchase</a>
                                     <!-- # link to your pricing page -->
-
-                            </div>
-                        
-                        </div>
-                        
+                            </div>                       
+                        </div>                     
                     </div>
                     
-                    <div class="col-md-4 wow animated bounceInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                    
-                        <div class="pricing-box pricing-box-lg text-center">
-                        
+                    <div class="col-md-4 wow animated bounceInUp" data-wow-duration="1s" data-wow-delay=".5s">              
+                        <div class="pricing-box pricing-box-lg text-center">                 
                             <h4 class="pricing-title">Enterprise</h4>
                             <h3 class="pricing-value">89<sup>$</sup></h3>
-                                <!-- sup "superscript" $ appeares above the 49 -->
+                                <!-- sup "superscript" $ appeares above the 49 -->                         
                             <ul class="pricing-specification">
                                 <!-- ul = unordered list -->
-                                <li>
-                                    <p>2000 EMAILS</p>
-                                </li>
-                                <li>
-                                    <p>25GB DISK SPACE</p>
-                                </li>
-                                <li>
-                                    <p>25GB BANDWIDTH</p>
-                                </li>
-                                <li>
-                                    <p>UNLIMITED DOMAINS</p>
-                                </li>
+                                <li><p>2000 EMAILS</p></li>
+                                <li><p>25GB DISK SPACE</p></li>
+                                <li><p>25GB BANDWIDTH</p></li>
+                                <li><p>UNLIMITED DOMAINS</p></li>
                             </ul>
-
                             <div class="pricing-btn">
-
                                 <a class="btn btn-lg btn-general btn-white" href="#" role="button">Perchase</a>
                                     <!-- # link to your pricing page -->
-
-                            </div>
-                        
-                        </div>
-                        
+                            </div>                       
+                        </div>                        
                     </div>
                     
-                    <div class="col-md-4 wow animated zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
-                    
-                        <div class="pricing-box text-center">
-                        
+                    <div class="col-md-4 wow animated zoomIn" data-wow-duration="1s" data-wow-delay=".5s">                    
+                        <div class="pricing-box text-center">  
                             <h4 class="pricing-title">Standard</h4>
                             <h3 class="pricing-value">69<sup>$</sup></h3>
-                                <!-- sup "superscript" $ appeares above the 49 -->
+                                <!-- sup "superscript" $ appeares above the 49 -->                          
                             <ul class="pricing-specification">
                                 <!-- ul = unordered list -->
-                                <li>
-                                    <p>1500 EMAILS</p>
-                                </li>
-                                <li>
-                                    <p>15GB DISK SPACE</p>
-                                </li>
-                                <li>
-                                    <p>15GB BANDWIDTH</p>
-                                </li>
-                                <li>
-                                    <p>UNLIMITED DOMAINS</p>
-                                </li>
-                            </ul>
-                            
-                            <div class="pricing-btn">
-                                
+                                <li><p>1500 EMAILS</p></li>
+                                <li><p>15GB DISK SPACE</p></li>
+                                <li><p>15GB BANDWIDTH</p></li>
+                                <li><p>UNLIMITED DOMAINS</p></li>
+                            </ul>  
+                            <div class="pricing-btn">                              
                                 <a class="btn btn-lg btn-general btn-blue" href="#" role="button">Perchase</a>
-                                    <!-- # link to your pricing page -->
-                                
-                            </div>
-                        
-                        </div>
-                        
-                    </div>
-                    
+                                    <!-- # link to your pricing page -->                             
+                            </div> 
+                        </div>   
+                    </div>                 
                 </div>
-
-            </div>
-        
-        </div>
-    
+            </div>     
+        </div>    
     </section>
     
 <!--================================================
                 STATS
 =================================================-->
 
-    <section id="stats">
-        
-        <div id="stats-cover" class="bg-parallax">
-    
+    <section id="stats">      
+        <div id="stats-cover" class="bg-parallax">   
             <div class="content-box">
-
-                <!-- generic templete aka class for title -->
+                <!-- generic templete aka class for title -->       
                 <div class="content-title content-title-white wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-
                     <h3>We Never Stop Improving</h3>
                     <!-- title -->
                     <div class="content-title-underline"></div>
-
                 </div>
-
                 <div class="container">
                 <!-- generic templete for container class -->
-
                     <div class="row text-center wow animated bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                     <!-- generic templete for row class -->
-
+                       
                         <div class="col-md-3 col-sm-6">
-                        <!-- "col-sm-4" only for small devices -->
-                        
-                            <div class="stats-item">
-                            
+                        <!-- "col-sm-4" only for small devices -->                        
+                            <div class="stats-item">                          
                                 <i class="fa fa-cloud-download fa-5x"></i>
                                 <h2><span class="counter">1500</span><span> +</span></h2>
-                                <p>Downloads</p>
-                            
-                            </div>
-                            
+                                <p>Downloads</p>                         
+                            </div>                           
                         </div>
                         
                         <div class="col-md-3 col-sm-6">
-                        <!-- "col-sm-4" only for small devices -->
-                        
-                           <div class="stats-item">
-                            
+                        <!-- "col-sm-4" only for small devices -->                      
+                           <div class="stats-item">                           
                                 <i class="fa fa-star-o fa-5x"></i>
                                 <h2><span class="counter">3500</span><span> +</span></h2>
-                                <p>Awards</p>
-                            
-                            </div>
-                            
+                                <p>Awards</p>                            
+                            </div>            
                         </div>
                         
                         <div class="col-md-3 col-sm-6">
-                        <!-- "col-sm-4" only for small devices -->
-                        
-                           <div class="stats-item">
-                            
+                        <!-- "col-sm-4" only for small devices --> 
+                           <div class="stats-item">                        
                                 <i class="fa fa-heart-o fa-5x"></i>
                                 <h2><span class="counter">1199</span><span> +</span></h2>
-                                <p>Likes</p>
-                            
-                            </div>
-                            
+                                <p>Likes</p>                         
+                            </div>                          
                         </div>
                         
                         <div class="col-md-3 col-sm-6">
-                        <!-- "col-sm-4" only for small devices -->
-                        
-                           <div class="stats-item">
-                            
+                        <!-- "col-sm-4" only for small devices -->                        
+                           <div class="stats-item">                           
                                 <i class="fa fa-check fa-5x"></i>
                                 <h2><span class="counter">2700</span><span> +</span></h2>
-                                <p>Recomended</p>
-                            
-                            </div>
-                            
+                                <p>Recomended</p>                          
+                            </div>                     
                         </div>
-
                     </div>
-
                 </div>
-
-            </div>
-            
-        </div>
-    
+            </div>            
+        </div>    
     </section>
 
 <!--================================================
                 CLIENTS
 =================================================-->
 
-    <section id="clients">
-    
+    <section id="clients">  
         <div class="content-box">
-            <!-- generic templete aka class for title -->
-            
-            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                
+            <!-- generic templete aka class for title -->              
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">            
                 <h3>Clients</h3>
                 <!-- title -->
                 <div class="content-title-underline"></div>
-
             </div>
-
             <div class="container">
                 <!-- generic templete for container class -->
-
                 <div class="row wow animated bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                     <!-- generic templete for row class -->
-
-                    <div class="col-md-12">
-                    
+                    <div class="col-md-12"> 
+                      
                         <div id="clients-list" class="owl-carousel owl-theme">
-
-                            <div class="client">
-                                
+                            <div class="client">                                
                                 <img src="img/client/logos/logo-1.jpg" class="img-responsive" alt="client">
-
-                            </div>
-                            
-                            <div class="client">
-                                
+                            </div>                          
+                            <div class="client">                                
                                 <img src="img/client/logos/logo-2.jpg" class="img-responsive" alt="client">
-
-                            </div>  
-                            
-                            <div class="client">
-                                
-                                <img src="img/client/logos/logo-3.jpg" class="img-responsive" alt="client">
-                                
-                            </div>  
-                            
-                            <div class="client">
-                                
-                                <img src="img/client/logos/logo-4.jpg" class="img-responsive" alt="client">
-                                
-                            </div>  
-                            
-                            <div class="client">
-                                
+                            </div>                           
+                            <div class="client">                                
+                                <img src="img/client/logos/logo-3.jpg" class="img-responsive" alt="client">                               
+                            </div>                             
+                            <div class="client">                                
+                                <img src="img/client/logos/logo-4.jpg" class="img-responsive" alt="client">                               
+                            </div>                            
+                            <div class="client">                               
                                 <img src="img/client/logos/logo-5.jpg" class="img-responsive" alt="client">
-
                             </div>  
-                            
-                            <div class="client">
-                                
+                            <div class="client">                             
                                 <img src="img/client/logos/logo-6.jpg" class="img-responsive" alt="client">
-
                             </div>  
-                            
-                            <div class="client">
-                                
+                            <div class="client">                                
                                 <img src="img/client/logos/logo-7.jpg" class="img-responsive" alt="client">
-
                             </div> 
-                            
-                            <div class="client">
-                                
+                            <div class="client">                               
                                 <img src="img/client/logos/logo-8.jpg" class="img-responsive" alt="client">
-
                             </div>
-
-                        </div>
-                    
+                        </div> 
+                          
                     </div>
-
                 </div>
-
             </div>
-
-        </div>
-    
+        </div>   
     </section>
     
-    <footer>
-    
-        <div id="contact">
-        
-            <div class="container">
-            
-                <div class="row">
-                
-                    <div class="col-md-6">
-                    
-                        <div id="contact-left">
-                        
+    <footer>    
+        <div id="contact">      
+            <div class="container">            
+                <div class="row">                
+                    <div class="col-md-6">                    
+                        <div id="contact-left">     
                             <h3>VESCO</h3>
                             <p>We believe in <strong>Simple</strong>, <strong>Clean</strong> & <strong>Modern</strong> Design Standards with Responsive Approach. Browse the amazing work of our company.</p>
-                            
-                            <div id="contact-info">
-                            
-                                <address>
-                                
+                                                     
+                            <div id="contact-info">                           
+                                <address>                               
                                     <strong>Headquarters:</strong><br>
                                     <p>221 Jockey Hollow, Suite 600<br>
-                                    Smithtown, NY 11787</p>
-                                
-                                </address>
-                                
+                                    Smithtown, NY 11787</p>                               
+                                </address>                                
                                 <div id="phone-fax-email">
                                     <p>
                                         <strong>Phone:</strong><span> (91) 8974 56984</span> <br>
                                         <strong>Fax:</strong><span> (91) 8974 56984</span> <br>
                                         <strong>Email:</strong><span> info@vesco.com</span> <br>
-                                    </p>
-                                    
-                                </div>
-                            
+                                    </p>                                   
+                                </div>                           
                             </div>
-                            
+                                                
                             <ul class="social-list">
                                 <li><a href="#" class="social-icon icon-white"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#" class="social-icon icon-white"><i class="fa fa-twitter"></i></a></li>
@@ -1135,60 +817,38 @@
                                 <li><a href="#" class="social-icon icon-white"><i class="fa fa-google-plus"></i></a></li>
                                     <!-- # = no website url to go to -->
                                     <!-- icon-gray makes the icons gray -->
-                            </ul>
-                        
-                        </div>
-                    
+                            </ul>                        
+                        </div>                    
                     </div>
                     
-                    <div class="col-md-6">
-                    
-                        <div id="contact-right">
-                        
+                    <div class="col-md-6">                    
+                        <div id="contact-right">                      
                             <h3>Contact Us</h3>
-                            <form action="#">
-                            
+                            <form action="#">                           
                                 <input type="text" name="full-name" placeholder="Full Name" class="form-control">
                                 <input type="text" name="email" placeholder="Email Address" class="form-control">
-                                <textarea rows="5" name="message" placeholder="Message..." class="form-control"></textarea>
-                                
-                                <div id="send-btn">
-                                
-                                    <a class="btn btn-lg btn-general btn-white" href="#" role="button">SEND</a>
-                                
+                                <textarea rows="5" name="message" placeholder="Message..." class="form-control"></textarea>                         
+                                <div id="send-btn">                              
+                                    <a class="btn btn-lg btn-general btn-white" href="#" role="button">SEND</a>                           
                                 </div>
-                                
-                            </form>
-                        
-                        </div>
-                    
-                    </div>
-                
-                </div>
-            
-            </div>
-        
+                            </form>                        
+                        </div>                    
+                    </div> 
+                      
+                </div>            
+            </div>        
         </div>
         
-        <div id="footer-bottom">
-            
-            <div class="container">
-                
-                <div class="row">
-                    
-                    <div class="col-md-6">
-                        
-                        <div id="footer-copyrights">
-                            
-                            <p>Copyrights &copy; 2017 All Rights Reserved by Vesco, Inc.</p>
-                            
-                        </div>
-                        
-                    </div>
-                    
+        <div id="footer-bottom">            
+            <div class="container">                
+                <div class="row">                                  
+                    <div class="col-md-6">                         
+                        <div id="footer-copyrights">                          
+                            <p>Copyrights &copy; 2017 All Rights Reserved by Vesco, Inc.</p>                            
+                        </div>                        
+                    </div>              
                     <div class="col-md-6 hidden-sm hidden-xs">
-                        <!-- hidden-sm from bootstrap documintation, hides footer menu on small devices -->
-                        
+                        <!-- hidden-sm from bootstrap documintation, hides footer menu on small devices -->                       
                         <div id="footer-menu">
                             <ul>
                                 <li><a class="smooth-scroll" href="#home">Home</a>/</li>
@@ -1200,53 +860,36 @@
                                 <li><a class="smooth-scroll" href="#stats">Stats</a></li>
                                     <!-- # links the footer menu to the appropriate section on the website -->    
                             </ul>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-                
-            </div>
-            
-        </div>
-        
+                        </div>        
+                    </div>                 
+                </div>               
+            </div>            
+        </div>     
         <a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll hidden-sm hidden-xs" title="home" role="button"> 
             <i class="fa fa-angle-up"></i>
-                <!-- bootstrap butoon class-->
-            
-        </a>
-        
+                <!-- bootstrap butoon class-->            
+        </a>     
     </footer>
     
     <!-- jquery.js EXTERNAL RESOURCE-->
     <script src="js/jquery.js"></script>
-
     <!-- bootstrap js EXTERNAL RESOURCE-->
     <script src="js/bootstrap/bootstrap.min.js"></script>
         <!-- bootstrap is after jquery becouse bootstrap requires jquery -->
-
     <!-- wow.js EXTERNAL RESOURCE-->
-    <script src="js/wow/wow.min.js"></script>
-    
+    <script src="js/wow/wow.min.js"></script>    
     <!-- magnific.popup.min.js EXTERNAL RESOURCE-->
-    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
-    
+    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>    
     <!-- owl.carousel.js EXTERNAL RESOURCE-->
-    <script src="js/owl-carousel/owl.carousel.min.js"></script>
-    
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>    
     <!-- waypoints.min.js EXTERNAL RESOURCE-->
-    <script src="js/counter/jquery.waypoints.min.js"></script>
-    
+    <script src="js/counter/jquery.waypoints.min.js"></script>    
     <!-- counterup.min.js EXTERNAL RESOURCE-->
-    <script src="js/counter/jquery.counterup.min.js"></script>
-    
+    <script src="js/counter/jquery.counterup.min.js"></script>    
     <!-- jquery.easing.js EXTERNAL RESOURCE-->
     <script src="js/easing/jquery.easing.1.3.js"></script>
-
     <!-- custom.js EXTERNAL RESOURCE-->
     <script src="js/custom.js"></script>
         <!-- good practice to add java files down here, to load the webpage then load the javascript files -->
-
 </body>
-
-</html>
+</html> <!-- 895 lines down from 1252 lines 28.5% line reduction-->
