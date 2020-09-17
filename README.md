@@ -1,2 +1,2 @@
 # Vesco
-A test website created with css, html, js, and bootstrap.
+A Website Created With HTML 5, CSS 3, Bootstrap 4 & jQuery. Part Of Irfan Dayan`s Udemy Course.
